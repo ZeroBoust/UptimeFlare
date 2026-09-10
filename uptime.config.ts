@@ -18,10 +18,10 @@ const workerConfig: WorkerConfig = {
   ],
   notification: {
     webhook: {
-      url: 'https://discord.com/api/webhooks/YOUR_WEBHOOK_HERE',
+      url: 'https://ntfy.sh',
       method: 'POST',
       payloadType: 'json',
-      payload: { content: '$MSG' },
+      payload: { topic: 'jmrdez-uptimeflare', message: '$MSG', priority: 'high' },
       timeout: 10000,
     },
     timeZone: 'Europe/Madrid',
