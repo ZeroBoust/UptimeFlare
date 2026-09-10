@@ -1,4 +1,4 @@
-import { PageConfig, WorkerConfig } from './types/config'
+import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 
 const pageConfig: PageConfig = {
   title: 'jmrdez fleet status',
